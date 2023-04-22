@@ -1,0 +1,90 @@
+
+.AppContainer{
+  box-sizing: border-box;
+  background-color: antiquewhite;
+
+}
+
+.header h2,h4 {
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #1f3894;
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
+/* 
+
+
+
+.App-Container{
+  display: grid;
+  grid-template-areas: auto,auto,auto,auto,auto,auto;
+    /* 'header1 header1 header1 header1 header1 header1'
+    'header1 header2 header2 header2 header2 header1'  
+    'header1 form-middle form-middle form-middle form-middle header1' 
+    'table-left table-left table-left table-left header1 header1'
+    'header1 header1 header1 header1 header1 header1' ; */
+
+    /* grid-column-gap: 10px;
+  
+} */ 
+/* .header h2{
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.header h4{
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.form-middle {
+  grid-area:2,2,3,5;
+  padding: 10px;
+  height: 100px
+}
+.table-left{
+  grid-area: 3/2/6/6;
+  padding: 10px;
+  height: 300px
+} */
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
